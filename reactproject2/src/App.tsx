@@ -6,9 +6,11 @@ import C from './pages/C';
 import D from './pages/D';
 import E from './pages/E';
 
+const repositoryName = 'reactproject1'; // 替換為你的倉庫名稱
+
 const App: React.FC = () => {
     return (
-        <Router>
+        <Router basename={`/${repositoryName}`}>
             <div>
                 <nav>
                     <button><Link to="/a">Go to A</Link></button>
