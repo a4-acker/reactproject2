@@ -6,7 +6,7 @@ import C from './pages/C';
 import D from './pages/D';
 import E from './pages/E';
 
-const repositoryName = 'reactproject1'; // 替換為你的倉庫名稱
+const repositoryName = 'reactproject2'; // 替換為你的倉庫名稱
 
 const App: React.FC = () => {
     return (
